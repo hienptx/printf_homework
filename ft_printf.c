@@ -68,21 +68,13 @@ int	ft_printf(const char *format, ...)
 int main()
 {
 	ft_printf ("int return value = %d\n", ft_printf(" %%\n"));
-	//ft_printf ("%%\n");
 	ft_printf ("int return value = %d\n", ft_printf(" %%%%%%\n"));
-	//ft_printf ("%%%%%%\n");
 	ft_printf ("int return value = %d\n", ft_printf(" %%c%c\n", 'A'));
-	//ft_printf(" %%c%c \n", 'A');
 	ft_printf ("int return value = %d\n", ft_printf("n\n23\r\\nk\n"));
-	//ft_printf("n\n23\r\\nk\'\n");
 
 	printf("write return value = %li\n", write(1, "(null)", 6));
 	printf ("int return value = %d\n", printf(" %%\n"));
-	//printf ("%%\n");
 	printf ("int return value = %d\n", printf(" %%%%%%\n"));		
-	//printf ("%%%%%%");
 	printf ("int return value = %d\n", printf(" %%c%c\n", 'A'));
-	//printf(" %%c%c\n", 'A');
 	printf ("int return value = %d\n", printf("n\n23\r\\nk\n"));
-	//printf("n\n23\r\\nk\'\n");	
 }
